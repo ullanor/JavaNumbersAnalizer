@@ -25,10 +25,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String filePath = "";
         //--
+        System.out.println("Welcome to numberChecker by Pablo :)");
         while (!hasFile) {
             System.out.print("Paste path to numbers file: ");
             filePath = scanner.nextLine();
             //filePath = "c:\\fileTestJAVA\\testNumbersFile.txt";
+            if(filePath.equals("exit")) return;
             if(new File(filePath).exists()) hasFile = true;
             else System.out.println(filePath + " doesn't exists!");
         }
