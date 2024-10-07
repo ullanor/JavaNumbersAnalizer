@@ -46,6 +46,7 @@ public class Main {
         StringBuilder outputForNewFile = new StringBuilder();
         for(String eachLine : fileLines){
             lineCounter++;
+            if(eachLine.isEmpty()) continue; //prevent empties!
             NumberChecker numberChecker = new NumberChecker(eachLine);
             String formattedLine = numberChecker.FormatNumber();
             if(!formattedLine.isEmpty()) {
@@ -71,10 +72,11 @@ public class Main {
             }
             outputForNewFile.append("}");
         }
-        //new File(filePath).getParent()
 
         //save to new file
-        Files.writeString(Path.of(new File(filePath).getParent() + "\\javedNumbersOut.txt"),outputForNewFile);
+        String parentDir = new File(filePath).getParent();
+        if(parentDir == null) parentDir = ""; else parentDir += "\\";
+        Files.writeString(Path.of(parentDir + "javedNumbersOut.txt"),outputForNewFile);
         //Files.writeString(Path.of(filePath),outputForNewFile);
     }
 }
