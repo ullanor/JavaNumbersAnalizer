@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaNumbersAnalizer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaNumbersAnalizer_jar</output-path>
+    <root id="archive" name="JavaNumbersAnalizer.jar">
+      <element id="module-output" name="JavaNumbersAnalizer" />
+    </root>
+  </artifact>
+</component>
