@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -8,8 +9,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    private static final float programVersion = 1.4f;
+
     public static void main(String[] args) throws IOException {
-        int numbersSeparationCount = 100;
+        int numbersSeparationCount = 100; 
         if(args.length >= 1) if(args[0].equals("clear")) {
             StaticManager.hideErrorNumbers = true;
             System.out.println("Will hide error numbers!");
@@ -28,7 +31,7 @@ public class Main {
         String filePath = "";
         //--
 
-        System.out.println("Welcome to numberChecker by Pablo :)");
+        System.out.println("Welcome to numberChecker by Pablo v"+programVersion);
         while (!hasFile) {
             System.out.print("Paste path to numbers file: ");
             filePath = scanner.nextLine();
