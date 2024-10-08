@@ -1,0 +1,49 @@
+Kraków	małopolskie	12
+Krosno	podkarpackie	13
+Tarnów	małopolskie	14
+Tarnobrzeg	podkarpackie	15
+Przemyśl	podkarpackie	16
+Rzeszów	podkarpackie	17
+Nowy Sącz	małopolskie	18
+Warszawa	mazowieckie	22
+Ciechanów	mazowieckie	23
+Płock	mazowieckie	24
+Siedlce	mazowieckie	25
+Ostrołęka	mazowieckie	29
+Katowice	śląskie	32
+Bielsko-Biała	śląskie	33
+Częstochowa	śląskie	34
+Kielce	świętokrzyskie	41
+Łódź	łódzkie	42
+Sieradz	łódzkie	43
+Piotrków Trybunalski	łódzkie	44
+Skierniewice	łódzkie	46
+Radom	mazowieckie	48
+Bydgoszcz	kujawsko-pomorskie	52
+Włocławek	kujawsko-pomorskie	54
+Elbląg	warmińsko-mazurskie	55
+Toruń	kujawsko-pomorskie	56
+Gdańsk	pomorskie	58
+Słupsk	pomorskie	59
+Poznań	wielkopolskie	61
+Kalisz	wielkopolskie	62
+Konin	wielkopolskie	63
+Leszno	wielkopolskie	65
+Piła	wielkopolskie	67
+Zielona Góra	lubuskie	68
+Wrocław	dolnośląskie	71
+Wałbrzych	dolnośląskie	74
+Jelenia Góra	dolnośląskie	75
+Legnica	dolnośląskie	76
+Opole	opolskie	77
+Lublin	lubelskie	81
+Chełm	lubelskie	82
+Biała Podlaska	lubelskie	83
+Zamość	lubelskie	84
+Białystok	podlaskie	85
+Łomża	podlaskie	86
+Suwałki	podlaskie	87
+Olsztyn	warmińsko-mazurskie	89
+Szczecin	zachodniopomorskie	91
+Koszalin	zachodniopomorskie	94
+Gorzów Wielkopolski	lubuskie	95

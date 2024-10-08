@@ -20,11 +20,14 @@ public class Main {
         }
         //--
 
+        StaticManager.landLineNumbersManager = new LandLineNumbersManager(); //stacjo
+        //--
         List<String> fileLines;
         boolean hasFile = false;
         Scanner scanner = new Scanner(System.in);
         String filePath = "";
         //--
+
         System.out.println("Welcome to numberChecker by Pablo :)");
         while (!hasFile) {
             System.out.print("Paste path to numbers file: ");
